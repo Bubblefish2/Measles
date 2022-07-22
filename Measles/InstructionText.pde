@@ -1,5 +1,5 @@
 //Global Variables
-String title = "Press D for daylight mode. Press N for night mode";
+String title = "Press D for daylight mode. Press N for night mode. Press Q to quit.";
 float titleX, titleY, titleWidth, titleHeight;
 PFont titleFont;
 //color purple=#2C08FF, resetDefaultInk=#FFFFFF; //not nightMode friendly

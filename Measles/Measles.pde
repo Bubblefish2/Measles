@@ -46,6 +46,10 @@ void keyPressed() {
     background( backgroundColour );
     ellipse(xFace, yFace, widthDiameterFace, heightDiameterFace);
   }//End NightMode Button
+  if ( key=='q' || key=='Q' ) {
+    exit();
+  }//End Quit button
+  //
 }//End keyPressed
 //
 void mousePressed() {
