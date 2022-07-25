@@ -26,6 +26,7 @@ void setup()
 //
 void draw()
 {
+  measleDraw();
   faceDraw();
   //Clothing
   image(pic1, imageX1, imageY1, picWidthAdjusted1, picHeightAdjusted1);
@@ -53,8 +54,6 @@ void keyPressed() {
 }//End keyPressed
 //
 void mousePressed() {
-  //
-  measleDraw();
   //
 }//End mousePressed
 //
